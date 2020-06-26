@@ -19,6 +19,8 @@ public class trdCam : MonoBehaviour
 
     public GameObject GetRefereceObject()
     {
+        if (!fakeObject)
+            fakeObject = new GameObject ();
         return fakeObject;
     }
 
